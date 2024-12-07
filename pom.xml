@@ -59,11 +59,16 @@
     </dependencies>
          <!-- Deploy to Nexus -->
 <distributionManagement>
-<repository>
-<id>deploymentRepo</id>
-<name>Nexus Repository</name>
-<url>http://localhost:8081/repository/maven-releases/</url>
-</repository>
+    <repository>
+        <id>deploymentRepo</id>
+        <name>Nexus Repository</name>
+        <url>http://77.37.125.190:8081/repository/maven-snapshots/</url>
+    </repository>
+    <snapshotRepository>
+        <id>deploymentRepo</id>
+        <name>Nexus Snapshot Repository</name>
+        <url>http://77.37.125.190:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
 </distributionManagement>
 
     <build>
