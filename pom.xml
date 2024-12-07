@@ -8,9 +8,9 @@
         <version>3.1.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>tn.esprit.spring</groupId>
-    <artifactId>Foyer</artifactId>
-    <version>1.4.0-SNAPSHOT</version>
+    <groupId>tn.esprit</groupId>
+    <artifactId>devopsProject</artifactId>
+    <version>1.0.0-RELEASE</version>
     <name>Foyer</name>
     <description>Foyer</description>
     <properties>
